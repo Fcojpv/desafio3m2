@@ -6,26 +6,36 @@ body{
     background-color: #28A745;
 }
 
-.collapse{
-    flex-grow: 0!important;
-}
 
 .card{
     height: 550px;
 }
 
-.card-text{
-    color: #707070;
+.card-title{
+    font-weight: 20;
+    font-family: 'roboto', light;
+    color: #212529;
+}
 
+.card-text{
+    font-weight: 16;
+    font-family: 'roboto', light;
+    color: #707070;
+}
+
+.text-secondary{
+    font-weight: 13;
+    font-family: 'Roboto', light;
+    color: #707070;
 }
 
 .precio1{
-    height: 19px;
+    height: 16px;
     color: #707070;
 }
 
 .precio2{
-    height: 24px;
+    height: 20px;
     font-weight: bold;
     color: #28A745;
 }
@@ -43,8 +53,14 @@ footer img{
     margin-top: 20px;
 }
 
-footer p{
-    font-family: 'Roboto', Light;
-    color: #707070;
-    font-size: 14pt;
+.footer_p{
+    font-family: 'Roboto', Medium;
+    color: #FFFFFF;
+    font-size: 21pt;
+}
+
+.bto1{
+    font-family: 'Roboto', Medium;
+    color: #212529;
+    font-size: 16pt;
 }
